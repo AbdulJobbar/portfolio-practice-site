@@ -107,7 +107,7 @@ main {
     background: #FFF8F3;
     border-radius: 10px;
     margin-top: 130px;
-    \
+
 
 }
 
@@ -250,4 +250,59 @@ hr {
 .resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer style */
+.subscription-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 117px; */
+    /* padding: 130px 300px; */
+    background: #FFF8F3;
+    margin-top: 113px;
+    max-width: 1140px;
+    margin: 113px auto;
+    padding-bottom: 130px;
+    margin-bottom: 0;
+
+}
+
+.messege input,
+textarea {
+    display: block;
+    border: 0;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.messege input[type="text"],
+input[type="email"] {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.messege input {
+    height: 64px;
+
+}
+
+/* connect */
+.connect-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    width: 562px;
+}
+
+.connect a {
+    height: 24px;
+    margin-right: 24px;
+}
+
+.connect {
+    margin-right: 60px;
+}
+
+footer {
+    background: #FFF8F3;
 }
