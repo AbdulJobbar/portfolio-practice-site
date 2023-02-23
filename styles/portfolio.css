@@ -107,6 +107,8 @@ main {
     background: #FFF8F3;
     border-radius: 10px;
     margin-top: 130px;
+    \
+
 }
 
 .aboutme>p {
@@ -152,11 +154,12 @@ main {
     margin: 0 auto;
 }
 
-.w-title {
+.section-title {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
     margin-bottom: 30px;
+    margin-top: 130px;
 }
 
 .w-description {
@@ -195,4 +198,56 @@ main {
     font-size: 20px;
     color: #181818;
 
+}
+
+/* resume styles*/
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-ft {
+    margin-bottom: 113px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resumi-info-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resumi-info-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+
+.resume-info-container {
+    margin-top: 30px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
 }
